@@ -10,7 +10,7 @@ public class SwitchDemo {
 
 		int input = 4; // one
 
-		switch (input) {
+		switch (input) { 
 
 //		if (input == 1)
 
