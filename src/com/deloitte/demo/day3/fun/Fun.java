@@ -31,6 +31,7 @@ interface Gst {
 
 }
 
-interface fixedGst {
+interface FixedGst {
 
+	public abstract double getGst(double amount);
 }
