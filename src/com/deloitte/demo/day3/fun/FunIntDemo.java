@@ -21,7 +21,6 @@ package com.deloitte.demo.day3.fun;
 ////answer 2 = through anonymous inner class 
 /// self learning 
 // --------------------------------------
-
 // incomplete code 
 //public class FunIntDemo {
 //
@@ -42,7 +41,11 @@ public class FunIntDemo {
 
 	public static void main(String[] args) {
 
-		FunInt obj = () -> System.out.println("fun method implemented with lambda");
+//		FunInt obj = () -> System.out.println("fun method implemented with lambda");
+		FunInt obj = () -> {
+			System.out.println("fun method implemented with lambda");
+			System.out.println("fun method implemented with lambda");
+		};
 
 		obj.funMethod();
 
